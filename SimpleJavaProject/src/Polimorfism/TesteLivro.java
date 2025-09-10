@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class TesteLivro {
 
 	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
 		Ebook e1 = new Ebook();
 		LivroFisico l1 = new LivroFisico();
 		
@@ -14,8 +13,6 @@ public class TesteLivro {
 		carrinho.adicionarLivro(e1);
 		System.out.println(l1.getClass().getSimpleName());
 		carrinho.adicionarLivro(l1);
-
-		sc.close();
 
 	}
 
